@@ -7,10 +7,10 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://inshanbooks.vercel.app',
   siteRepo: 'https://github.com/inshanbooks/inshanweb',
-  siteLogo: '/static/images/logo-inshan.jpg',
+  siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
+  email: 'inshanbooks@gmail.com',
   github: 'https://github.com',
   twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
