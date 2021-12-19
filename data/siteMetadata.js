@@ -9,7 +9,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/inshanbooks/inshanweb',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/logo.png',
   email: 'inshanbooks@gmail.com',
   github: 'https://github.com',
   twitter: 'https://twitter.com/Twitter',
