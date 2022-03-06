@@ -1,0 +1,40 @@
+---
+title: 'Menulis buku antologi Ramadhan di Rantau'
+date: '2022-03-06'
+tags: ['menulis', 'buku', 'antologi']
+draft: false
+summary: 'Yuk ikut menulis buku antologi ramadhan di rantau'
+---
+
+# Menulis buku antologi
+**Ramadhan di Rantau**
+
+Siapa saja boleh ikut! 
+Anak-anak, pemuda, orang tua, ibu rumah tangga, pelajar, pegawai, pebisnis, siapapun boleh ya 😊
+Apa yang di tulis?
+Kamu bebas menulis apapun tentang pengalaman kamu saat Ramadhan di Rantau. Tentang perjuangan selama Ramadhan di rantau, pengalaman paling berkesan, hikmahnya, kerinduannya, atau lainnya. Setiap tulisan wajib memiliki value, manfaat, dan hikmah yang bisa diambil pembaca ya sobat Inshan Media.
+
+## Syarat dan Ketentuan
+Berikut ini Syarat dan Ketentuannya:
+- Tulisan merupakan kisah nyata yang kamu alami sendiri.
+- Tulisan original karya sendiri dan ditulis menggunakan sudut pandang aku/saya.
+- Di akhir cerita tuliskan hikmah yang berharga dari kisahmu.
+- Tulisan harus baru! Dibuat khusus untuk menulis buku antologi “Ramadhan di Rantau”.
+- Tulis di MS Word dengan font Times New Roman, font 11, spasi 1,5.
+- Panjang tulisan minimal 600 kata, maksimal 800 kata.
+- Ukuran kertas A5, margin normal, rata kanan-kiri (justify).
+- Judul harus berbeda dengan judul buku, ditulis dengan font Times New Roman/bold/14.
+- Di bawah judul tulis:
+  - Oleh: Nama kamu (Times New Roman/no bold/ 11)
+- Tulis biodata singkatmu maksimal 100 kata. Boleh juga ditambah foto kamu.
+- Jika perlu menggunakan ayat Al Quran/Hadist cukup tulis latinnya atau artinya saja.
+- Simpan di MS Word dengan nama kamu_judul.
+- Kirim ke inshanmedia@gmail.com dengan subjek: Ramadhan di Rantau.
+- Buku akan diterbitkan dan penulis bisa mendapat royalti dari hasil penjualan oleh penulis sendiri.
+- Naskah yang memenuhi syarat dan ketentuan sangat mungkin dibukukan.
+- Jika masih ragu dengan naskahnya bisa konsultasi dulu di sini. ( link konsultasi ke wa.me/6285747101917)
+- Deadline 31 Maret 2022 pukul 17.00 WIB.
+- Naskah terpilih akan diinformasikan ke penulis dan tidak boleh dipublikasikan dalam bentuk apa pun, melalui media apa pun setelahnya.
+- Yuk segera mulai untuk menulis, kirimkan, dan nantikan bukumu terbit!
+
+[Ikut Menulis](https://forms.gle/9iktrVmiZvycu4vs5)
