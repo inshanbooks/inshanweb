@@ -18,6 +18,26 @@ html {
   @apply px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-600;
 }
 
+.btn-shopee {
+  @apply mx-5 px-4 py-2 font-bold text-white bg-orange-500 rounded hover:bg-orange-600;
+}
+
+.btn-tokped {
+  @apply px-4 py-2 font-bold text-white bg-green-500 rounded hover:bg-green-600;
+}
+
+.btn-wa {
+  @apply px-4 py-2 font-bold text-white bg-teal-500 rounded hover:bg-teal-600;
+}
+
+.btn-ig {
+  @apply px-5 py-2 font-bold text-white bg-sky-500 rounded hover:bg-sky-600;
+}
+
+.btn-yt {
+  @apply px-5 py-2 font-bold text-white bg-red-500 rounded hover:bg-red-600;
+}
+
 /* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
 input:-webkit-autofill,
 input:-webkit-autofill:focus {

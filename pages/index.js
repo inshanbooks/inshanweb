@@ -21,12 +21,31 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
+          <p className="text-xl font-bold leading-7 text-gray-500 dark:text-gray-400">
+            {siteMetadata.description}
+          </p>
+          <p>
+            <b>Inshan Books</b> dan <b>Inshan Media</b> merupakan bagian dari{' '}
+            <b>CV Inshan Karya Permata</b>, sebuah penerbitan buku yang beralamat di Kota
+            Yogyakarta.
+          </p>
+          <p>
+            <b>Penerbit Inshan Books</b> adalah imprint khusus buku-buku sains religi. Inshan Books
+            hadir sebagai media untuk untuk mengenalkan fenomena-fenomena alam secara umum dan
+            fenomena fisika secara lebih lebih khusus, dengan menyiratkan nilai-nilai keislaman di
+            dalamnya. Semoga buku-buku Inshan Books bisa menjadi inspirasi saintis muslim yang
+            berakhlak mulia.
+          </p>
+          <p>
+            <b>Penerbit Inshan Media</b> adalah imprint untuk buku-buku umum. Berharap Inshan Media
+            bisa menjadi solusi untuk menerbitkan buku dari teman-teman penulis. Buku dengan multi
+            genre bisa diterbitkan melalui Penerbit Inshan Media.
+          </p>
+        </div>
+        <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Berita Terbaru
           </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
-          </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
@@ -69,7 +88,7 @@ export default function Home({ posts }) {
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                           aria-label={`Read "${title}"`}
                         >
-                          Read more &rarr;
+                          Detail berita &rarr;
                         </Link>
                       </div>
                     </div>

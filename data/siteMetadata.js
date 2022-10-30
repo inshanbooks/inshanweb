@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: 'Inshanbooks',
+  title: 'inshanbooks',
   author: 'CV Inshan Karya Permata',
-  headerTitle: 'Inshanbooks',
-  description: 'Website inshanbooks',
+  headerTitle: 'inshanbooks',
+  description: 'Selamat Datang!',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://inshanbooks.com',
@@ -13,9 +13,12 @@ const siteMetadata = {
   email: 'inshanbooks@gmail.com',
   github: 'https://github.com/inshanbooks',
   twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
+  facebook: 'https://www.facebook.com/inshanbooks/',
+  youtube: 'https://www.youtube.com/channel/UCNlYvE2Vz5kLnIwPrT_BfDg',
   linkedin: 'https://www.linkedin.com',
+  whatsapp: 'https://www.linkedin.com',
+  ig1: 'https://www.instagram.com/inshanmedia/',
+  ig2: 'https://www.instagram.com/inshanbooks/',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
