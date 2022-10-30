@@ -8,10 +8,10 @@ import siteMetadata from '@/data/siteMetadata'
 import Comments from '@/components/comments'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 
-const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
+const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/berita/${fileName}`
 const discussUrl = (slug) =>
   `https://mobile.twitter.com/search?q=${encodeURIComponent(
-    `${siteMetadata.siteUrl}/blog/${slug}`
+    `${siteMetadata.siteUrl}/berita/${slug}`
   )}`
 
 const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
@@ -22,7 +22,7 @@ export default function ProdukLayout({ frontMatter, authorDetails, next, prev, c
   return (
     <SectionContainer>
       <BlogSEO
-        url={`${siteMetadata.siteUrl}/blog/${slug}`}
+        url={`${siteMetadata.siteUrl}/berita/${slug}`}
         authorDetails={authorDetails}
         {...frontMatter}
       />
@@ -137,10 +137,10 @@ export default function ProdukLayout({ frontMatter, authorDetails, next, prev, c
               </div>
               <div className="pt-4 xl:pt-8">
                 <Link
-                  href="/projects"
+                  href="/produk"
                   className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                 >
-                  &larr; Kembali ke produk
+                  &larr; Kembali ke halaman semua produk
                 </Link>
               </div>
             </footer>

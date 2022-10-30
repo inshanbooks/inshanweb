@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'inshanbooks',
   author: 'CV Inshan Karya Permata',
   headerTitle: 'inshanbooks',
-  description: 'Selamat Datang!',
+  description: 'Selamat Datang di Website Inshanbooks dan Inshan Media',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://inshanbooks.com',

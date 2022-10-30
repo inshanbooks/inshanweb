@@ -101,7 +101,7 @@ inquirer
       .replace(/ /g, '-')
       .replace(/-+/g, '-')
     const frontMatter = genFrontMatter(answers)
-    const filePath = `data/blog/${fileName ? fileName : 'untitled'}.${
+    const filePath = `data/berita/${fileName ? fileName : 'untitled'}.${
       answers.extension ? answers.extension : 'md'
     }`
     fs.writeFile(filePath, frontMatter, { flag: 'wx' }, (err) => {

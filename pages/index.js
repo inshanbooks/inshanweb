@@ -10,7 +10,7 @@ import NewsletterForm from '@/components/NewsletterForm'
 const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
-  const posts = await getAllFilesFrontMatter('blog')
+  const posts = await getAllFilesFrontMatter('berita')
 
   return { props: { posts } }
 }
@@ -66,7 +66,7 @@ export default function Home({ posts }) {
                         <div>
                           <h2 className="text-2xl font-bold leading-8 tracking-tight">
                             <Link
-                              href={`/blog/${slug}`}
+                              href={`/berita/${slug}`}
                               className="text-gray-900 dark:text-gray-100"
                             >
                               {title}
@@ -84,7 +84,7 @@ export default function Home({ posts }) {
                       </div>
                       <div className="text-base font-medium leading-6">
                         <Link
-                          href={`/blog/${slug}`}
+                          href={`/berita/${slug}`}
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                           aria-label={`Read "${title}"`}
                         >
@@ -102,7 +102,7 @@ export default function Home({ posts }) {
       {posts.length > MAX_DISPLAY && (
         <div className="flex justify-end text-base font-medium leading-6">
           <Link
-            href="/blog"
+            href="/berita"
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             aria-label="all posts"
           >
