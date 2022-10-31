@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Rudi Temanku',
+    description: `Menceritakan Rudi, seorang anak istimewa, dari sudut pandang Kuku.`,
+    imgSrc: '/static/images/projects/rdtk/rudi-temanku-1.png',
+    href: '/produk/rudi-temanku',
+  },
+  {
     title: '29 Cerita Asyik Fabel Kejujuran',
     description: `Deo sangat senang mempunyai tetangga baru. Kido, tetangga baru Deo mempunyai cangkang yang cantik.`,
     imgSrc: '/static/images/projects/cafk/cafk-project.png',
