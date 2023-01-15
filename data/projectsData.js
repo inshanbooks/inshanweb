@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Mari Menghafal Doa-Doa Harian Sesuai Sunnah',
+    description: `Hai anak-anak saleh-salehah yang dicintai Allah! Yuk, kita belajar doa-doa harian!`,
+    imgSrc: '/static/images/projects/mari-menghafal-doa.png',
+    href: '/produk/mari-menghafal-doa',
+  },
+  {
     title: 'Terima Kasih Ibuku',
     description: `Buku bergambar untuk anak yang berisi 12 cerita seru! Ada pula kisah yang penuh haru.`,
     imgSrc: '/static/images/projects/terima-kasih-ibuku-project.png',
