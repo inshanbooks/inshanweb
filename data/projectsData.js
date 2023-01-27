@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Buku-1',
+    description: `Hai anak-anak saleh-salehah yang dicintai Allah! Yuk, kita belajar doa-doa harian!`,
+    imgSrc: '/static/images/projects/mari-menghafal-doa.png',
+    href: '/produk/buku-1',
+  },
+  {
     title: 'Mari Menghafal Doa-Doa Harian Sesuai Sunnah',
     description: `Hai anak-anak saleh-salehah yang dicintai Allah! Yuk, kita belajar doa-doa harian!`,
     imgSrc: '/static/images/projects/mari-menghafal-doa.png',
