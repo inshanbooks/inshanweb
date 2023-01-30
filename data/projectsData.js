@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Dinosaur Activity Book',
+    description: `Asyik, ada Dinosaurus! Sekarang adik-adik bisa belajar melalui aktivitas seru.`,
+    imgSrc: '/static/images/projects/da-project.jpg',
+    href: '/produk/dinosaur-activity',
+  },
+  {
     title: 'Mari Menghafal Doa-Doa Harian Sesuai Sunnah',
     description: `Hai anak-anak saleh-salehah yang dicintai Allah! Yuk, kita belajar doa-doa harian!`,
     imgSrc: '/static/images/projects/mari-menghafal-doa.png',
