@@ -1,23 +1,5 @@
 const projectsData = [
   {
-    title: 'Idulfitriku Jilid 2',
-    description: `Banyak sekali cerita yang menyenangkan saat Idulfitri. Di buku Idulfitriku jilid 2 ini ada empat cerita seru yang bisa teman-teman baca. Dari Menyambut Idulfitri, Hari Raya untuk Yasmin, THR Dari Om Inu, sampai Kue Lebaran Nenek. Selamat membaca, ya!`,
-    imgSrc: '/static/images/projects/idulfitriku-jilid-2.png',
-    href: '/produk/idulfitriku-jilid-2',
-  },
-  {
-    title: 'Idulfitriku Jilid 1',
-    description: `Banyak sekali cerita yang menyenangkan saat Idulfitri. Di buku Idulfitriku jilid 1 ini banyak sekali kisah-kisah seru yang bisa teman-teman baca. Tentang Baju Lebaranku, nikmatnya Rendang Hari Raya, serunya menata Dekorasi Lebaran, serta THR Tentang Hari Raya.`,
-    imgSrc: '/static/images/projects/idulfitriku-jilid-1.png',
-    href: '/produk/idulfitriku-jilid-1',
-  },
-  {
-    title: 'Cerita Idulfitri',
-    description: `Banyak sekali cerita yang menyenangkan saat Idulfitri. Di buku Idulfitriku jilid 1 ini banyak sekali kisah-kisah seru yang bisa teman-teman baca. Tentang Baju Lebaranku, nikmatnya Rendang Hari Raya, serunya menata Dekorasi Lebaran, serta THR Tentang Hari Raya.`,
-    imgSrc: '/static/images/projects/cerita-idulfitri.jpg',
-    href: '/produk/cerita-idulfitri',
-  },
-  {
     title: 'Dinosaur Activity Book',
     description: `Asyik, ada Dinosaurus! Sekarang adik-adik bisa belajar melalui aktivitas seru.`,
     imgSrc: '/static/images/projects/da-project.jpg',
