@@ -21,7 +21,7 @@
     "gray-matter": "^4.0.2",
     "image-size": "1.0.0",
     "mdx-bundler": "^8.0.0",
-    "next": "12.0.7",
+    "next": "^12.3.4",
     "next-themes": "^0.0.14",
     "postcss": "^8.4.5",
     "preact": "^10.6.2",
@@ -57,7 +57,7 @@
     "lint-staged": "^11.0.0",
     "next-remote-watch": "^1.0.0",
     "prettier": "2.2.1",
-    "socket.io": "^4.5.3",
+    "socket.io": "^4.6.2",
     "socket.io-client": "^4.5.3"
   },
   "lint-staged": {
