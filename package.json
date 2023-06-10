@@ -57,7 +57,7 @@
     "lint-staged": "^11.0.0",
     "next-remote-watch": "^1.0.0",
     "prettier": "2.2.1",
-    "socket.io": "^4.5.3",
+    "socket.io": "^4.6.2",
     "socket.io-client": "^4.5.3"
   },
   "lint-staged": {
@@ -67,5 +67,9 @@
     "*.+(js|jsx|ts|tsx|json|css|md|mdx)": [
       "prettier --write"
     ]
+  },
+  "engines" : { 
+    "npm" : ">=8.0.0 <10.0.0",
+    "node" : ">=18.0.0 <20.3.0"
   }
 }
