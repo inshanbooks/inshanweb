@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Ibu Pintar Kita',
+    description: `Wanita yang baru pertama kali hamil, rentan terhadap anemia berat. Adapun penyebab paling umum dari anemia di seluruh dunia adalah kekurangan zat besi. Untuk mencegah, mengkontrol, dan menerapi anemia pada wanita ada beragam cara. Di booklet ini dibahas lebih lanjut mengenai hal tersebut. Yuk, baca dan praktikkan agar terbebas dari anemia! Ibu sehat, Bayi kuat!`,
+    imgSrc: '/static/images/projects/ibu-pintar-kita.png',
+    href: '/produk/ibu-pintar-kita',
+  },
+  {
     title: 'Idulfitriku Jilid 2',
     description: `Banyak sekali cerita yang menyenangkan saat Idulfitri. Di buku Idulfitriku jilid 2 ini ada empat cerita seru yang bisa teman-teman baca. Dari Menyambut Idulfitri, Hari Raya untuk Yasmin, THR Dari Om Inu, sampai Kue Lebaran Nenek. Selamat membaca, ya!`,
     imgSrc: '/static/images/projects/idulfitriku-jilid-2.png',
