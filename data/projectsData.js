@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Bagaimana Rasulullah Ketika Bercanda',
+    description: `Buku ini mengingatkan kita agar selalu berhati-hati dalam berbicara walaupun ketika bercanda. Tidak sedikit dari kita ketika bercanda  tidak jujur dan juga menyakiti hati.`,
+    imgSrc: '/static/images/projects/brkb-project.png',
+    href: '/produk/bagaimana-rasulullah-ketika-bercanda',
+  },
+  {
     title: 'Berdua Menggapai Asa di Negeri Sakura',
     description: `“Berdua Menggapai Asa di Negeri Sakura” ini berisi 12 kisah pengalaman para diaspora dalam berkarya dan mendukung pasangan meraih mimpi di Jepang. Buku ini dilengkapi dengan tip-tip persiapan keberangkatan dan berkehidupan di Jepang, seperti pengurusan visa, bagaimana memilih tempat tinggal di Jepang hingga perihal kehamilan dan persalinan di Jepang. Dengan membaca buku ini, diharapkan memberi gambaran dan menjawab rasa ingin tahu pembaca mengenai bagaimana beradaptasi untuk tinggal di Jepang.`,
     imgSrc: '/static/images/projects/berdua-menggapai-asa.png',
