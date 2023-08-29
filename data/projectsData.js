@@ -2,7 +2,7 @@ const projectsData = [
   {
     title: 'Ke Mana Dinosaurus Pergi?',
     description: `Stego dan kawanan dinosaurus melakukan perjalanan di musim kemarau, panas terik tak menyurutkan langkah stego meski sebenarnya ia sangat kelelahan, ke mana stego dan dinosaurus lainnya pergi? apa yang mereka cari?`,
-    imgSrc: '/static/images/projects/kemana-dinosaurus.png',
+    imgSrc: '/static/images/projects/kdp-project.png',
     href: '/produk/kemana-dinosaurus-pergi',
   },
   {
