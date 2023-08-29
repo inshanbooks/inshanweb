@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Ke Mana Dinosaurus Pergi?',
+    description: `Stego dan kawanan dinosaurus melakukan perjalanan di musim kemarau, panas terik tak menyurutkan langkah stego meski sebenarnya ia sangat kelelahan, ke mana stego dan dinosaurus lainnya pergi? apa yang mereka cari?`,
+    imgSrc: '/static/images/projects/kemana-dinosaurus.png',
+    href: '/produk/kemana-dinosaurus-pergi',
+  },
+  {
     title: 'Bagaimana Rasulullah Ketika Bercanda',
     description: `Buku ini mengingatkan kita agar selalu berhati-hati dalam berbicara walaupun ketika bercanda. Tidak sedikit dari kita ketika bercanda  tidak jujur dan juga menyakiti hati.`,
     imgSrc: '/static/images/projects/brkb-project.png',
