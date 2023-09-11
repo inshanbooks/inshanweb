@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Ginji-Boy “Guardian of The Kidney" Sayangi Ginjal Kita',
+    description: `Mengapa ginjal kita perlu dijaga kesehatannya? Karena ginjal adalah salah satu organ tubuh yang sangat penting agar manusia bisa hidup dengan baik. Ginji-Boy “Guardian of The Kidney” adalah super hero yang akan mengajak kita semua mengenali serba serbi tentang organ ginjal dan bagaimana cara menjaganya agar tetap sehat. Yuk, ikuti keseruan Ginji-Boy dalam komik ini!`,
+    imgSrc: '/static/images/projects/cover-ginji-boy.png',
+    href: '/produk/ginji-boy',
+  },
+  {
     title: 'Ke Mana Dinosaurus Pergi?',
     description: `Stego dan kawanan dinosaurus melakukan perjalanan di musim kemarau, panas terik tak menyurutkan langkah stego meski sebenarnya ia sangat kelelahan, ke mana stego dan dinosaurus lainnya pergi? apa yang mereka cari?`,
     imgSrc: '/static/images/projects/kdp-project.png',
