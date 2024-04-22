@@ -1,5 +1,23 @@
 const projectsData = [
   {
+    title: 'HATS (Healthcare, Agroindustry, Tourism, and Small Medium Enterprises) Dalam Sorot Dimensi Supply Chain Management',
+    description: `Buku HATS (Healthcare, Agroindustry, Tourism, and Small Medium Enterprises) Dalam Sorot Dimensi Supply Chain Management, merupakan sebuah ukiran kecil mahasiswa S1 Teknik Industri IT Telkom Purwokerto terhadap pada isu Healthcare, Agroindustry, Tourism, and Small Medium Enterprises. Keempat isu tersebut dipandang sebagai isu yang sangat krusial. Keempat isu tersebut membutuhkan kerjasama seluruh stakeholders dengan penuh tanggung jawab. Buku ini memberikan sebuah perspektif singkat dengan mengusung empat tema besar tersebut. Melalui buku ini, para penulis mencoba untuk memberikan sebuah narasi awal sebagai pemantik isu HATS. Ditambah lagi, beberapa penulis mengaitkan konteks healthcare saat kondisi pandemi COVID-19 sehingga permasalahan yang diangkat menjadi pengingat hiruk pikuknya masa pandemi. Buku ini juga dapat dijadikan sebuah rujukan awal bagi mahasiswa, akademisi, masyarakat, dan para pemangku kepentingan untuk melihat narasi awal terkait isu HATS. Semoga buku ini dapat menjadi wawasan baru yang lebih bermanfaat dan mampu menjadi teman minum kopi para cendekia dan kaum milenial.`,
+    imgSrc: '/static/images/projects/hats.png',
+    href: '/produk/hats',
+  },
+  {
+    title: 'Hello Aisyah!',
+    description: `Hello Aisyah adalah buku dwi bahasa (Bahasa Indonesia dan Bahasa Inggris) yang berbasis Mobile Augmented Reality (MAR). Buku ini berisi narasi perkenalan tokoh, kehidupan bermain dan belajar, keluarga, kegiatan sosial anak, dan nilai-nilai keagamaan. Buku ini juga dilengkapi worksheet yang bisa dituntaskan dengan pendampingan orang tua atau guru sebagai upaya dalam pemahaman membaca.`,
+    imgSrc: '/static/images/projects/hello-aisyah-project.png',
+    href: '/produk/hello-aisyah',
+  },
+  {
+    title: '19 Dongeng Fabel Islami',
+    description: `Hom, Pim, dan Pah mendengar berita gembira ada Rumah Pohon Bacaan Anak di Hutan Kikukica. Setelah izin orang tua dikantongi, mereka pun segera bergegas ke sana. Wah, pasti seru sekali membaca di sana. Ayo, temukan keseruan lainnya dari setiap cerita yang ada, selamat membaca!`,
+    imgSrc: '/static/images/projects/fabel-islami-project.png',
+    href: '/produk/19-dongeng-fabel-islami',
+  },
+  {
     title: 'Ginji-Boy “Guardian of The Kidney" Sayangi Ginjal Kita',
     description: `Mengapa ginjal kita perlu dijaga kesehatannya? Karena ginjal adalah salah satu organ tubuh yang sangat penting agar manusia bisa hidup dengan baik. Ginji-Boy “Guardian of The Kidney” adalah super hero yang akan mengajak kita semua mengenali serba serbi tentang organ ginjal dan bagaimana cara menjaganya agar tetap sehat. Yuk, ikuti keseruan Ginji-Boy dalam komik ini!`,
     imgSrc: '/static/images/projects/cover-ginji-boy.png',
