@@ -1,9 +1,9 @@
 const projectsData = [
   {
-    title: 'HATS (Healthcare, Agroindustry, Tourism, and Small Medium Enterprises) Dalam Sorot Dimensi Supply Chain Management',
-    description: `Buku HATS (Healthcare, Agroindustry, Tourism, and Small Medium Enterprises) Dalam Sorot Dimensi Supply Chain Management, merupakan sebuah ukiran kecil mahasiswa S1 Teknik Industri IT Telkom Purwokerto terhadap pada isu Healthcare, Agroindustry, Tourism, and Small Medium Enterprises. Keempat isu tersebut dipandang sebagai isu yang sangat krusial. Keempat isu tersebut membutuhkan kerjasama seluruh stakeholders dengan penuh tanggung jawab. Buku ini memberikan sebuah perspektif singkat dengan mengusung empat tema besar tersebut. Melalui buku ini, para penulis mencoba untuk memberikan sebuah narasi awal sebagai pemantik isu HATS. Ditambah lagi, beberapa penulis mengaitkan konteks healthcare saat kondisi pandemi COVID-19 sehingga permasalahan yang diangkat menjadi pengingat hiruk pikuknya masa pandemi. Buku ini juga dapat dijadikan sebuah rujukan awal bagi mahasiswa, akademisi, masyarakat, dan para pemangku kepentingan untuk melihat narasi awal terkait isu HATS. Semoga buku ini dapat menjadi wawasan baru yang lebih bermanfaat dan mampu menjadi teman minum kopi para cendekia dan kaum milenial.`,
-    imgSrc: '/static/images/projects/hats.png',
-    href: '/produk/hats',
+    title: 'Little Sarah Dresses Like Umi',
+    description: `Little Sarah Dresses Like Umi adalah buku bilingual Inggris-Arab. Menceritakan tentang Sarah, gadis kecil yang senang sekali mencocokkan baju yang sama warnanya dengan baju yang dipakai Bunda. Melalui buku ini selain belajar bahasa Inggris dan bahasa Arab anak diajak untuk mengenal warna melalui cerita yang seru. Kisah Sarah juga mengajarkan pada anak perempuan untuk senantiasa memakai pakaian yang menutup aurat.`,
+    imgSrc: '/static/images/projects/little-sarah.png',
+    href: '/produk/little-sarah',
   },
   {
     title: 'Hello Aisyah!',
