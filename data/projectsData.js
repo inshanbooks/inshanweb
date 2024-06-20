@@ -2,8 +2,8 @@ const projectsData = [
   {
     title: 'Gatal-gatal Karena Alergi',
     description: `Setelah seharian bermain di pantai, kulit Kara tiba-tiba muncul bentol-bentol kemerahan. Kira-kira apa penyebabnya clan bagaimana mengatasinya? Yuk, Simak cerita Rara di buku "Gatal-gatal karena Alergi". `,
-    imgSrc: '/static/images/projects/gatal-karena-alergi.png',
-    href: '/produk/gatal-karena-alergi',
+    imgSrc: '/static/images/projects/gatal-gatal-karena-alergi.png',
+    href: '/produk/gatal-gatal-karena-alergi',
   },
   {
     title: 'Little Sarah Dresses Like Umi',
