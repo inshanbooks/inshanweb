@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Gatal-gatal Karena Alergi',
+    description: `Setelah seharian bermain di pantai, kulit Kara tiba-tiba muncul bentol-bentol kemerahan. Kira-kira apa penyebabnya clan bagaimana mengatasinya? Yuk, Simak cerita Rara di buku "Gatal-gatal karena Alergi". `,
+    imgSrc: '/static/images/projects/gatal-karena-alergi.png',
+    href: '/produk/gatal-karena-alergi',
+  },
+  {
     title: 'Little Sarah Dresses Like Umi',
     description: `Little Sarah Dresses Like Umi adalah buku bilingual Inggris-Arab. Menceritakan tentang Sarah, gadis kecil yang senang sekali mencocokkan baju yang sama warnanya dengan baju yang dipakai Bunda. Melalui buku ini selain belajar bahasa Inggris dan bahasa Arab anak diajak untuk mengenal warna melalui cerita yang seru. Kisah Sarah juga mengajarkan pada anak perempuan untuk senantiasa memakai pakaian yang menutup aurat.`,
     imgSrc: '/static/images/projects/little-sarah.png',
