@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Ayo Hidup Sehat',
+    description: `Ada dua cerita dalam buku ini. Rara yang mencoba makan keripik pedas dan terkena sabun. Duh, apa yang terjadi dengan Rara? Bagaimana pula mengatasinya? Yuk, baca cerita lengkapnya dalam buku ini!`,
+    imgSrc: '/static/images/projects/ayo-hidup-sehat.png',
+    href: '/produk/ayo-hidup-sehat',
+  },
+  {
     title: 'Keluarga Bebas TB',
     description: `Secara histori tuberculosis menyerang manusia sejak ratusan tahun lalu dan cenderung terjadi peningkatan jumlah prevalensi penyakit di masyarakat. Maka perlu dilakukan upaya edukasi masif di seluruh lapisan masyarakat terutama di lingkungan rumah. Buku ini diharapkan mampu menjadi sumber edukasi yang tidak hanya informatif, tetapi juga dapat “dinikmati” oleh semua kalangan usia dalam keluarga. Ilustrasi gambar yang menarik dan informasi yang mudah dipahami dalam buku ini diharapkan mampu memberikan informasi penting baik terkait definisi penyakit tuberculosis, gejala, terapi farmakologi dan nonfarmakologi, upaya preventif dalam mencegah penularannya, serta mengingat Sang Pencipta di lingkungan keluarga. Hal tersebut dimaksudkan untuk meminimalkan infeksi berulang dan infeksi sekunder yang dapat disebabkan oleh kuman Micobacterium tuberculosis ini.`,
     imgSrc: '/static/images/projects/keluarga-bebas-tb.png',
