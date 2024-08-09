@@ -1,6 +1,6 @@
 const projectsData = [
   {
-    title: 'Ayo Hidup Sehat',
+    title: 'Rara dan Kenna "Ayo Kita Hidup Sehat"',
     description: `Ada dua cerita dalam buku ini. Rara yang mencoba makan keripik pedas dan terkena sabun. Duh, apa yang terjadi dengan Rara? Bagaimana pula mengatasinya? Yuk, baca cerita lengkapnya dalam buku ini!`,
     imgSrc: '/static/images/projects/ayo-hidup-sehat.png',
     href: '/produk/ayo-hidup-sehat',
