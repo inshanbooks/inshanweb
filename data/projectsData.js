@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Elang Jagoan "Aku Kecil Tetapi Bisa Jadi Pahlawan"',
+    description: `Luasnya Indonesia, beragamnya suku bangsa dan bahasa daerah, menghadirkan banyak kisah berbeda dalam kehidupan anak-anak. Kehidupan sehari-hari Elang Jagoan anak-anak Nuswantara rupanya penuh dengan petualangan yang seru, mengasyikan, dan juga berlimpah semangat! Jiwanya terbang begitu bebas. Seakan hendak menyampaikan Aku Kecil, Tetapi Bisa Jadi Pahlawan.`,
+    imgSrc: '/static/images/projects/elang-jagoan.jpg',
+    href: '/produk/elang-jagoan',
+  },
+  {
     title: 'Rara dan Kenna "Ayo Kita Hidup Sehat"',
     description: `Ada dua cerita dalam buku ini. Rara yang mencoba makan keripik pedas dan terkena sabun. Duh, apa yang terjadi dengan Rara? Bagaimana pula mengatasinya? Yuk, baca cerita lengkapnya dalam buku ini!`,
     imgSrc: '/static/images/projects/ayo-hidup-sehat.png',
