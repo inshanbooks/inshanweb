@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Ayo Mengenal Huruf',
+    description: `Ayo Mengenal Huruf adalah buku yang dirancang khusus untuk membantu anak mengenal huruf dan nama-nama benda yang ada di sekitar. Buku ini dilengkapi fitur augmented reality untuk mendukung anak mengenalkan huruf secara visual dan audio. Dan tentu saja agar anak lebih tertarik dalam belajar.`,
+    imgSrc: '/static/images/projects/ayo-mengenal-huruf.png',
+    href: '/produk/ayo-mengenal-huruf',
+  },
+  {
     title: 'Elang Jagoan "Aku Kecil Tetapi Bisa Jadi Pahlawan"',
     description: `Luasnya Indonesia, beragamnya suku bangsa dan bahasa daerah, menghadirkan banyak kisah berbeda dalam kehidupan anak-anak. Kehidupan sehari-hari Elang Jagoan anak-anak Nuswantara rupanya penuh dengan petualangan yang seru, mengasyikan, dan juga berlimpah semangat! Jiwanya terbang begitu bebas. Seakan hendak menyampaikan Aku Kecil, Tetapi Bisa Jadi Pahlawan.`,
     imgSrc: '/static/images/projects/elang-jagoan.jpg',
