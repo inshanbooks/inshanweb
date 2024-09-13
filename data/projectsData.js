@@ -8,7 +8,7 @@ const projectsData = [
   {
     title: 'Elang Jagoan "Aku Kecil Tetapi Bisa Jadi Pahlawan"',
     description: `Luasnya Indonesia, beragamnya suku bangsa dan bahasa daerah, menghadirkan banyak kisah berbeda dalam kehidupan anak-anak. Kehidupan sehari-hari Elang Jagoan anak-anak Nuswantara rupanya penuh dengan petualangan yang seru, mengasyikan, dan juga berlimpah semangat! Jiwanya terbang begitu bebas. Seakan hendak menyampaikan Aku Kecil, Tetapi Bisa Jadi Pahlawan.`,
-    imgSrc: '/static/images/projects/elang-jagoan.jpg',
+    imgSrc: '/static/images/projects/cover-elang-jagoan.png',
     href: '/produk/elang-jagoan',
   },
   {
