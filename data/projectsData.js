@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Cerita Menakjubkan Dunia Bawah Laut',
+    description: `Beluga ingin membeli baju baru. Dia bosan memakai baju putih melulu. Beluga memutuskan pergi ke toko baju Nyonya Singa Laut. Wah, banyak sekali baju bagus. Rasanya dia ingin membeli semuanya sekaligus. Beluga bingung harus memilih yang mana. Ayo, bantu Beluga mendapatkan baju baru! Dan nikmati 37 Cerita Menakjubkan Dunia Bawah Laut dalam buku ini. Selamat membaca!`,
+    imgSrc: '/static/images/projects/dunia-bawah-laut.png',
+    href: '/produk/dunia-bawah-laut',
+  },
+  {
     title: 'Ayo Mengenal Huruf',
     description: `Ayo Mengenal Huruf adalah buku yang dirancang khusus untuk membantu anak mengenal huruf dan nama-nama benda yang ada di sekitar. Buku ini dilengkapi fitur augmented reality untuk mendukung anak mengenalkan huruf secara visual dan audio. Dan tentu saja agar anak lebih tertarik dalam belajar.`,
     imgSrc: '/static/images/projects/ayo-mengenal-huruf.png',
