@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Menjala Impian (Kumpulan Cerpen Profil Pelajar Pancasila untuk Remaja)',
+    description: `Buku ini berisi dua puluh cerpen yang menyentuh hati. Cerita khas remaja dan segala problematikanya. Setiap ceritanya mengandung nilai-nilai Profil Pelajar Pancasila. Beriman, bertakwa kepada Tuhan Yang Maha Esa, dan berakhlak mulia, berkebhinekaan global, bergotong royong, mandiri, bernalar kritis, dan kreatif.`,
+    imgSrc: '/static/images/projects/menajala-impian.png',
+    href: '/produk/menjala-impian',
+  },
+  {
     title: 'Cerita Menakjubkan Dunia Bawah Laut',
     description: `Beluga ingin membeli baju baru. Dia bosan memakai baju putih melulu. Beluga memutuskan pergi ke toko baju Nyonya Singa Laut. Wah, banyak sekali baju bagus. Rasanya dia ingin membeli semuanya sekaligus. Beluga bingung harus memilih yang mana. Ayo, bantu Beluga mendapatkan baju baru! Dan nikmati 37 Cerita Menakjubkan Dunia Bawah Laut dalam buku ini. Selamat membaca!`,
     imgSrc: '/static/images/projects/dunia-bawah-laut.png',
