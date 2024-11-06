@@ -2,7 +2,7 @@ const projectsData = [
   {
     title: 'Menjala Impian',
     description: `Buku ini berisi dua puluh cerpen yang menyentuh hati. Cerita khas remaja dan segala problematikanya. Setiap ceritanya mengandung nilai-nilai Pancasila. Beriman, bertakwa kepada Tuhan Yang Maha Esa, dan berakhlak mulia, berkebhinekaan global, bergotong royong, mandiri, bernalar kritis, dan kreatif.`,
-    imgSrc: '/static/images/projects/menajala-impian-1.png',
+    imgSrc: '/static/images/projects/menajala.png',
     href: '/produk/menjala-impian',
   },
   {
