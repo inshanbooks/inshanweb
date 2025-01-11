@@ -3,7 +3,7 @@ const projectsData = [
     title: 'Keterampilan Agama Islam: Belajar Ibadah Jadi Mudah',
     description: `Buku ini merupakan panduan belajar agama Islam yang interaktif dan dirancang khusus untuk anak-anak. Setiap bab mengajarkan konsep utama Islam, seperti rukun iman, rukun Islam, tata cara ibadah, doa harian, hingga kisah para nabi dan sahabat, dilengkapi ilustrasi menarik untuk mempermudah pemahaman.`,
     imgSrc: '/static/images/projects/buku-pai.png',
-    href: '/produk/belajar-ibadah-jadi-mudah',
+    href: '/produk/belajar-ibadah',
   },
   {
     title: 'Menjala Impian',
