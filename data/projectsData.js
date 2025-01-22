@@ -2,8 +2,8 @@ const projectsData = [
   {
     title: 'Petualangan Ryu: Ceria dan Semangat Sembuh dari Sindrom Nefrotik',
     description: `Komik ini menjelaskan secara sederhana tentang gejala sindrom nefrotik, proses pengobatannya dengan prednison (steroid), hingga langkah-langkah untuk mencegah kambuhnya penyakit ini. Melalui dukungan dari keluarga, teman, arahan dan perawatan dokter, Ryu berhasil menjalani perjalanan penuh tantangan menuju kesembuhan.`,
-    imgSrc: '/static/images/projects/ryu.jpg',
-    href: '/produk/petualangan-ryu',
+    imgSrc: '/static/images/projects/pet-ryu-img.png',
+    href: '/produk/pet-ryu-ginjal',
   },
   {
     title: 'Keterampilan Agama Islam: Belajar Ibadah Jadi Mudah',
