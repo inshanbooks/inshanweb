@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Petualangan Ryu: Ceria dan Semangat Sembuh dari Sindrom Nefrotik',
+    description: `Komik ini menjelaskan secara sederhana tentang gejala sindrom nefrotik, proses pengobatannya dengan prednison (steroid), hingga langkah-langkah untuk mencegah kambuhnya penyakit ini. Melalui dukungan dari keluarga, teman, arahan dan perawatan dokter, Ryu berhasil menjalani perjalanan penuh tantangan menuju kesembuhan.`,
+    imgSrc: '/static/images/projects/petualangan-ryu.png',
+    href: '/produk/petualangan-ryu',
+  },
+  {
     title: 'Keterampilan Agama Islam: Belajar Ibadah Jadi Mudah',
     description: `Buku ini merupakan panduan belajar agama Islam yang interaktif dan dirancang khusus untuk anak-anak. Setiap bab mengajarkan konsep utama Islam, seperti rukun iman, rukun Islam, tata cara ibadah, doa harian, hingga kisah para nabi dan sahabat, dilengkapi ilustrasi menarik untuk mempermudah pemahaman.`,
     imgSrc: '/static/images/projects/buku-pai.png',
