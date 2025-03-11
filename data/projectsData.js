@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Berhasil Disapih dengan Cinta',
+    description: `Menyusui adalah waktu istimewa bagi ibu dan anak. Perjalanan selama dua tahun akan segera berakhir. Perlu pendekatan yang tepat agar momen berhenti menyusu menjadi memori positif yang tak terlupakan untuk keluarga terutama untuk anak dalam menghadapi tumbuh kembangnya.`,
+    imgSrc: '/static/images/projects/bddc.png',
+    href: '/produk/berhasil-disapih',
+  },
+  {
     title: 'Petualangan Ryu: Ceria dan Semangat Sembuh dari Sindrom Nefrotik',
     description: `Komik ini menjelaskan secara sederhana tentang gejala sindrom nefrotik, proses pengobatannya dengan prednison (steroid), hingga langkah-langkah untuk mencegah kambuhnya penyakit ini. Melalui dukungan dari keluarga, teman, arahan dan perawatan dokter, Ryu berhasil menjalani perjalanan penuh tantangan menuju kesembuhan.`,
     imgSrc: '/static/images/projects/pet-ryu-img.png',
