@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Penjaga Trenggiling',
+    description: `Populasi trenggiling di Indonesia kian hari kian menurun. Begitupula dengan populasi trenggiling di hutan dekat tempat tinggal Raka. Di tengah kekhawatiran itu, Raka bertemu dengan pemburu trenggiling! Apa, ya, yang akan dilakukan oleh Raka dan teman-temannya?`,
+    imgSrc: '/static/images/projects/pen-treng.png',
+    href: '/produk/penjaga-trenggiling',
+  },
+  {
     title: 'Berhasil Disapih dengan Cinta',
     description: `Menyusui adalah waktu istimewa bagi ibu dan anak. Perjalanan selama dua tahun akan segera berakhir. Perlu pendekatan yang tepat agar momen berhenti menyusu menjadi memori positif yang tak terlupakan untuk keluarga terutama untuk anak dalam menghadapi tumbuh kembangnya.`,
     imgSrc: '/static/images/projects/bddc.png',
