@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Rara Hati-hati: Seri Keselamatan di Sekola',
+    description: `Rara senang sekali bersekolah. Tak hanya untuk belajar, tapi juga bermain bersama teman-teman. Brugg! Saat bermain Rara terjatuh. Kemudian Rara dirawat di UKS, dan hari berikutnya Rara di bawa ke Rumah Sakit untuk pemeriksaan foto rontgen. Alhamdulillah, hasil foto rontgen menunjukkan Rara sehat dan Rara bisa kembali bersekolah.`,
+    imgSrc: '/static/images/projects/rara.png',
+    href: '/produk/rara-hati-hati',
+  },
+  {
     title: 'Penjaga Trenggiling',
     description: `Populasi trenggiling di Indonesia kian hari kian menurun. Begitupula dengan populasi trenggiling di hutan dekat tempat tinggal Raka. Di tengah kekhawatiran itu, Raka bertemu dengan pemburu trenggiling! Apa, ya, yang akan dilakukan oleh Raka dan teman-temannya?`,
     imgSrc: '/static/images/projects/pen-treng.png',
