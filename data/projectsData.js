@@ -1,6 +1,12 @@
 const projectsData = [
   {
-    title: 'Rara Hati-hati: Seri Keselamatan di Sekola',
+    title: 'Ensiklopedia 16 Negara Terbaik di Dunia',
+    description: `Ada negeri yang memiliki dua kota suci bahkan ada pula negara yang terletak di dua benua. Wah, negara mana itu ya? Mari temukan jawabannya di buku ini, dan persiapkan diri menjelajah 16 negara paling menakjubkan bersama Ensiklopedia 16 Negara Terindah di Dunia!`,
+    imgSrc: '/static/images/projects/ensi-neg.png',
+    href: '/produk/ensiklopedia-negara',
+  },
+  {
+    title: 'Rara Hati-hati: Seri Keselamatan di Sekolah',
     description: `Rara senang sekali bersekolah. Tak hanya untuk belajar, tapi juga bermain bersama teman-teman. Brugg! Saat bermain Rara terjatuh. Kemudian Rara dirawat di UKS, dan hari berikutnya Rara di bawa ke Rumah Sakit untuk pemeriksaan foto rontgen. Alhamdulillah, hasil foto rontgen menunjukkan Rara sehat dan Rara bisa kembali bersekolah.`,
     imgSrc: '/static/images/projects/rara.png',
     href: '/produk/rara-hati-hati',
