@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Ishaq dan Tangan Supernya',
+    description: `Ishaq memiliki gangguan spektrum autisme. Ia luar biasa dengan tangan supernya. Buku ini hadir untuk meningkatkan kesadaran dan edukasi kepada anak-anak serta orang tua untuk saling menghargai dan menyayangi antar sesama, meski berbeda. Hidup akan lebih mudah jika orang-orang mengerti kita.`,
+    imgSrc: '/static/images/projects/ishaq.png',
+    href: '/produk/ishaq',
+  },
+  {
     title: 'Ensiklopedia 16 Negara Terbaik di Dunia',
     description: `Ada negeri yang memiliki dua kota suci bahkan ada pula negara yang terletak di dua benua. Wah, negara mana itu ya? Mari temukan jawabannya di buku ini, dan persiapkan diri menjelajah 16 negara paling menakjubkan bersama Ensiklopedia 16 Negara Terindah di Dunia!`,
     imgSrc: '/static/images/projects/ensi-neg.png',
