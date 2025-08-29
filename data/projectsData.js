@@ -1,7 +1,7 @@
 const projectsData = [
   {
     title: 'Keling, Batik, dan Ampyang',
-    description: `omik Asyik dengan judul Keling, Batik, dan Ampyang ini adalah komik dengan tiga cerita asyik yang syarat makna. Melalui media komik, penulis yang juga sekaligus ilutratornya ingin mengajak pembaca untuk peduli dengan lingkungan sekitar dan sayang dengan kucing liar, menjaga diri dengan cara menahan keinginan untuk makan yang manis-manis, juga menumbuhkan semangat pantang menyerah.`,
+    description: `Komik Asyik dengan judul Keling, Batik, dan Ampyang ini adalah komik dengan tiga cerita asyik yang syarat makna. Melalui media komik, penulis yang juga sekaligus ilutratornya ingin mengajak pembaca untuk peduli dengan lingkungan sekitar dan sayang dengan kucing liar, menjaga diri dengan cara menahan keinginan untuk makan yang manis-manis, juga menumbuhkan semangat pantang menyerah.`,
     imgSrc: '/static/images/projects/komik-batik.png',
     href: '/produk/keling-batik-ampyang',
   },
