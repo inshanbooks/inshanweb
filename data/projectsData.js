@@ -1,5 +1,29 @@
 const projectsData = [
   {
+    title: 'Seri Sekitar Fara: Umbi',
+    description: `Fara bermain ke rumah Bibi Umbi. Ada umbi lapis, umbi batang, dan umbi akar. Apa sih bedanya? Yuk, cari tahu bareng Fara.`,
+    imgSrc: '/static/images/projects/umbi.png',
+    href: '/produk/umbi',
+  },
+  {
+    title: 'Seri Sekitar Fara: Sawi',
+    description: `Sawi enak sekali dibuat masakan, baik ditumis maupun direbus. Mari ke rumah Tante Wiwi bareng Fara untuk mencari jenis-jenis sawi.`,
+    imgSrc: '/static/images/projects/sawi.png',
+    href: '/produk/sawi',
+  },
+  {
+    title: 'Seri Sekitar Fara: Rimpang',
+    description: `Ada jahe, kunyit, lengkuas, dan kencur di kebun Bu Rimpang. Apakah Fara bisa membedakannya?`,
+    imgSrc: '/static/images/projects/rimpang.png',
+    href: '/produk/rimpang',
+  },
+  {
+    title: 'Kisah Dindasama; Kutta, Sahabat dari Laut',
+    description: `Dindasama, gadis kecil dari suku Bajau, yang mencintai laut Bajautopia. Laut adalah tempat yang penuh keajaiban bagi Dindasama dan rumah bagi sahabatnya, Kutta si gurita. Tapi, suatu hari Dindasama tidak menemukan Kutta. Rumah karang tempat Kutta tinggal hancur, rusak oleh ulah manusia yang tidak peduli. Dindasama tidak bisa tinggal diam. Bersama teman-temannya, ia berusaha menanam karang baru untuk mengembalikan rumah Kutta.`,
+    imgSrc: '/static/images/projects/kisah-dindasima.png',
+    href: '/produk/kisah-dindasama',
+  },
+  {
     title: 'Keling, Batik, dan Ampyang',
     description: `Komik Asyik dengan judul Keling, Batik, dan Ampyang ini adalah komik dengan tiga cerita asyik yang syarat makna. Melalui media komik, penulis yang juga sekaligus ilutratornya ingin mengajak pembaca untuk peduli dengan lingkungan sekitar dan sayang dengan kucing liar, menjaga diri dengan cara menahan keinginan untuk makan yang manis-manis, juga menumbuhkan semangat pantang menyerah.`,
     imgSrc: '/static/images/projects/komik-batik.png',
