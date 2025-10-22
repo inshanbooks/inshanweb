@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Elang Jagoan 2 "Aku Pengembara Cilik Nuswantara"',
+    description: `Kekayaan alam dan budaya Indonesia adalah anugerah yang tak ternilai. Penuh kejutan dan sarat makna. Dari Sumatera hingga Papua, Elang Jagoan kembali terbang, tinggi. Menyusuri langit, menyapa bumi pertiwi. Menghadirkan petualangan seru nan ceria melalui kisah “Aku Pengembara Cilik Nuswantara.”`,
+    imgSrc: '/static/images/projects/EJ2.png',
+    href: '/produk/elang-jagoan2',
+  },
+  {
     title: 'Seri Sekitar Fara: Umbi',
     description: `Fara bermain ke rumah Bibi Umbi. Ada umbi lapis, umbi batang, dan umbi akar. Apa sih bedanya? Yuk, cari tahu bareng Fara.`,
     imgSrc: '/static/images/projects/umbi.png',
