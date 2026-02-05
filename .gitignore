@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+package-lock.json
 
 # testing
 /coverage
@@ -18,7 +19,7 @@ public/sitemap.xml
 /build
 *.xml
 # rss feed
-/public/feed.xml 
+/public/feed.xml
 
 # misc
 .DS_Store
@@ -34,3 +35,4 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+.claude

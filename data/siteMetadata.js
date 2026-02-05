@@ -33,7 +33,7 @@ const siteMetadata = {
   },
   comment: {
     // Select a provider and use the environment variables associated to it
-    // https://vercel.com/docs/environment-variables
+    // Set NEXT_PUBLIC_* env vars in your Netlify dashboard or .env file
     provider: 'giscus', // supported providers: giscus, utterances, disqus
     giscusConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
