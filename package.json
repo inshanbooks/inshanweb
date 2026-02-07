@@ -6,6 +6,7 @@
     "start": "cross-env SOCKET=true bun ./scripts/next-remote-watch.js ./data",
     "dev": "next dev",
     "build": "next build && bun ./scripts/generate-sitemap",
+    "export": "next build",
     "serve": "next start",
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir components --dir lib --dir layouts --dir scripts",
