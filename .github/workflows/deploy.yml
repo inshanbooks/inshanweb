@@ -49,15 +49,17 @@ jobs:
         run: |
           # JPEG: kualitas maks 80, buang semua metadata
           find ./out -type f \( -name "*.jpg" -o -name "*.jpeg" \) \
-            | xargs -r jpegoptim --max=80 --strip-all
+            | xargs -r jpegoptim --max=80 --strip-all || true
 
           # PNG: lossy compression dengan pngquant (hemat 40-60%)
-          find ./out -type f -name "*.png" \
-            | xargs -r pngquant --quality=60-80 --force --ext .png --skip-if-larger
+          find ./out -type f -name "*.png" | while IFS= read -r f; do
+            pngquant --quality=60-80 --force --ext .png --skip-if-larger "$f" || true
+          done
 
           # WebP: re-compress kalau ada
-          find ./out -type f -name "*.webp" \
-            | xargs -r -I{} cwebp -q 80 -m 6 -quiet {} -o {}
+          find ./out -type f -name "*.webp" | while IFS= read -r f; do
+            cwebp -q 80 -m 6 -quiet "$f" -o "$f" || true
+          done
 
       - name: Setup SSH agent
         uses: webfactory/ssh-agent@v0.9.0
