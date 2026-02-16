@@ -3,14 +3,14 @@ const projectsData = [
     title: 'Cerita Menakjubkan Sains di Sekitar Kita',
     description: `Cerita Menakjubkan: Sains di Sekitar Kita akan mengajakmu berpetualang menjelajahi Kota Darah bersama Detektif Antibodi dan Sel T yang sedang riuh dengan kemacetannya. Selanjutnya, kita akan menjelajahi Matahari yang penuh tantangan bersama Foton dan teman-temannya. Ube dan Ucil siap menyambut adik-adik pembaca untuk membantu mereka bekerja keras di usus besar. Wah, ada apa, ya, di sana? Tenang adik-adik, kamu akan tahu setelah membaca ceritanya.`,
     imgSrc: '/static/images/projects/sains-sekitar-kita.png',
-    href: '/produk/sains-sekitar-kita.png',
-  }, 
+    href: '/produk/sains-sekitar-kita',
+  },
   {
     title: 'Secangkir Senyum',
     description: `Hari yang dinanti Abi datang juga. Ia senang akan belajar bersama kak Doni Damara. Tapi, kenapa tiba-tiba Abi gugup? Apa yang akan Abi pelajari memangnya? Apakah Abi bisa menyelesaikannya?`,
     imgSrc: '/static/images/projects/secangkir-senyum.png',
     href: '/produk/secangkir-senyum',
-  }, 
+  },
   {
     title: 'Elang Jagoan "Aku Pengembara Cilik Nuswantara"',
     description: `Kekayaan alam dan budaya Indonesia adalah anugerah yang tak ternilai. Penuh kejutan dan sarat makna. Dari Sumatera hingga Papua, Elang Jagoan kembali terbang, tinggi. Menyusuri langit, menyapa bumi pertiwi. Menghadirkan petualangan seru nan ceria melalui kisah “Aku Pengembara Cilik Nuswantara.”`,
