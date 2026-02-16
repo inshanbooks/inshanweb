@@ -1,0 +1,83 @@
+name: Build & Deploy to DomaiNesia
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    name: Build & Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Validate required secrets
+        env:
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: |
+          missing=""
+          [ -z "$SSH_HOST" ]        && missing="$missing SSH_HOST"
+          [ -z "$SSH_USER" ]        && missing="$missing SSH_USER"
+          [ -z "$DEPLOY_PATH" ]     && missing="$missing DEPLOY_PATH"
+          [ -z "$SSH_PRIVATE_KEY" ] && missing="$missing SSH_PRIVATE_KEY"
+          if [ -n "$missing" ]; then
+            echo "❌ Missing required secrets:$missing"
+            echo "Aborting to prevent deploying to wrong path."
+            exit 1
+          fi
+          echo "✅ All required secrets are set."
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Build static site
+        run: bun run build
+
+      - name: Install image compression tools
+        run: sudo apt-get install -y jpegoptim pngquant webp
+
+      - name: Compress images in out/
+        run: |
+          # JPEG: kualitas maks 80, buang semua metadata
+          find ./out -type f \( -name "*.jpg" -o -name "*.jpeg" \) \
+            | xargs -r jpegoptim --max=80 --strip-all
+
+          # PNG: lossy compression dengan pngquant (hemat 40-60%)
+          find ./out -type f -name "*.png" \
+            | xargs -r pngquant --quality=60-80 --force --ext .png --skip-if-larger
+
+          # WebP: re-compress kalau ada
+          find ./out -type f -name "*.webp" \
+            | xargs -r -I{} cwebp -q 80 -m 6 -quiet {} -o {}
+
+      - name: Setup SSH agent
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Add server to known_hosts
+        run: ssh-keyscan -p 64000 -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Verify deploy path exists on server
+        run: |
+          ssh -p 64000 ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
+            "cd ${{ secrets.DEPLOY_PATH }} && echo '✅ Deploy path verified: ${{ secrets.DEPLOY_PATH }}'"
+
+      - name: Deploy out/ via rsync
+        run: |
+          rsync -avz \
+            -e "ssh -p 64000" \
+            --exclude='.htaccess' \
+            --exclude='.well-known' \
+            --exclude='*.shtml' \
+            --exclude='default.html' \
+            ./out/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.DEPLOY_PATH }}/
