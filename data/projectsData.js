@@ -1,8 +1,8 @@
 const projectsData = [
   {
-    title: 'Cerita Menakjubkan Sains di Sekitar Kita',
+    title: '18 Ensiklopedia Hewan dalam Al Quran',
     description: `Cerita hewan-hewan selalu menarik untuk anak. Apalagi kalau hewan-hewan ini ada dalam Al-quran pasti sangat menakjubkan! Anak-anak perlu tahu, bagaimana hewan-hewan tersebut dikisahkan di dalam Al-quran sehingga bisa mengambil hikmah  juga meneladani para Nabi dan sahabat. Tidak berhenti di situ, dalam buku ini anak-anak juga diajak untuk mengenal hewan-hewan tersebut lebih dekat. Dari sisi sains apa saja sih keunikan hewan-hewan ini sehingga begitu spesial disebut dalam Al-quran?`,
-    imgSrc: '/static/images/projects/ensiklopedia-hewan.jpg',
+    imgSrc: '/static/images/projects/ensiklopedia-hewan.png',
     href: '/produk/ensiklopedia-hewan',
   }, 
   {
