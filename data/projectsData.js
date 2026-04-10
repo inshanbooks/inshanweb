@@ -16,7 +16,7 @@ const projectsData = [
     description: `Hari yang dinanti Abi datang juga. Ia senang akan belajar bersama kak Doni Damara. Tapi, kenapa tiba-tiba Abi gugup? Apa yang akan Abi pelajari memangnya? Apakah Abi bisa menyelesaikannya?`,
     imgSrc: '/static/images/projects/secangkir-senyum.png',
     href: '/produk/secangkir-senyum',
-  }, 
+  },
   {
     title: 'Elang Jagoan "Aku Pengembara Cilik Nuswantara"',
     description: `Kekayaan alam dan budaya Indonesia adalah anugerah yang tak ternilai. Penuh kejutan dan sarat makna. Dari Sumatera hingga Papua, Elang Jagoan kembali terbang, tinggi. Menyusuri langit, menyapa bumi pertiwi. Menghadirkan petualangan seru nan ceria melalui kisah “Aku Pengembara Cilik Nuswantara.”`,
