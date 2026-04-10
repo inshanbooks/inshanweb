@@ -20,9 +20,9 @@ const LayoutWrapper = ({ children }) => {
                     <Image
                       alt={'logo-inshanbooks'}
                       src={'/static/images/logo.png'}
-                      className="rounded-full border-4 shadow-sm"
-                      width={'150vw'}
-                      height={'150vw'}
+                      className="rounded-full border-4 shadow-sm w-24 h-24"
+                      width={96}
+                      height={96}
                     />
                   </div>
                 </div>

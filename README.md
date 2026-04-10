@@ -95,13 +95,13 @@ npx degit timlrx/tailwind-nextjs-starter-blog#typescript
 First, run the development server:
 
 ```bash
-npm start
+bun start
 ```
 
     or
 
 ```bash
-npm run dev
+bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -174,7 +174,7 @@ layout: PostLayout
 
 ### Compose
 
-Run `node ./scripts/compose.js` to bootstrap a new post.
+Run `bun ./scripts/compose.js` to bootstrap a new post.
 
 Follow the interactive prompt to generate a post with pre-filled front matter.
 
