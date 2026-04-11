@@ -1,10 +1,16 @@
 const projectsData = [
   {
+    title: '18 Ensiklopedia Hewan dalam Al Quran',
+    description: `Cerita hewan-hewan selalu menarik untuk anak. Apalagi kalau hewan-hewan ini ada dalam Al-quran pasti sangat menakjubkan! Anak-anak perlu tahu, bagaimana hewan-hewan tersebut dikisahkan di dalam Al-quran sehingga bisa mengambil hikmah  juga meneladani para Nabi dan sahabat. Tidak berhenti di situ, dalam buku ini anak-anak juga diajak untuk mengenal hewan-hewan tersebut lebih dekat. Dari sisi sains apa saja sih keunikan hewan-hewan ini sehingga begitu spesial disebut dalam Al-quran?`,
+    imgSrc: '/static/images/projects/ensiklopedia-hewan.png',
+    href: '/produk/ensiklopedia-hewan',
+  }, 
+  {
     title: 'Cerita Menakjubkan Sains di Sekitar Kita',
     description: `Cerita Menakjubkan: Sains di Sekitar Kita akan mengajakmu berpetualang menjelajahi Kota Darah bersama Detektif Antibodi dan Sel T yang sedang riuh dengan kemacetannya. Selanjutnya, kita akan menjelajahi Matahari yang penuh tantangan bersama Foton dan teman-temannya. Ube dan Ucil siap menyambut adik-adik pembaca untuk membantu mereka bekerja keras di usus besar. Wah, ada apa, ya, di sana? Tenang adik-adik, kamu akan tahu setelah membaca ceritanya.`,
     imgSrc: '/static/images/projects/sains-sekitar-kita.png',
     href: '/produk/sains-sekitar-kita',
-  },
+  }, 
   {
     title: 'Secangkir Senyum',
     description: `Hari yang dinanti Abi datang juga. Ia senang akan belajar bersama kak Doni Damara. Tapi, kenapa tiba-tiba Abi gugup? Apa yang akan Abi pelajari memangnya? Apakah Abi bisa menyelesaikannya?`,
