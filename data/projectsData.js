@@ -1,5 +1,11 @@
 const projectsData = [
   {
+    title: 'Ketika Tubuhku Kalah oleh Nyamuk Kecil',
+    description: `Aku mengira demam itu hal biasa. Ternyata aku salah. Semua berawal dari satu gigitan nyamuk kecil yang membuatku harus menjalani perawatan di rumah sakit. Pengalaman itu mengajarkanku satu hal penting: Demam Berdarah Dengue (DBD) bukan penyakit sepele. Lewat cerita ini, aku ingin berbagi pengalamanku. Aku belajar bahwa menjaga diri dan lingkungan itu penting, dan bisa dimulai dari langkah-langkah sederhana, seperti menguras dan menutup tempat air, membuang barang-barang yang bisa menjadi sarang nyamuk, serta melakukan kebiasaan tambahan untuk mencegah gigitan nyamuk (3M Plus). Aku menuliskan cerita ini agar teman-teman tidak perlu mengalami apa yang pernah aku alami. Semoga cerita dan gambar-gambar di dalam buku ini bisa mengingatkan kita semua untuk lebih peduli, menjaga kebersihan, dan tetap sehat agar kita bisa bermain dengan aman setiap hari.`,
+    imgSrc: '/static/images/projects/nyamuk.jpg',
+    href: '/produk/tubuhku-kalah',
+  }, 
+  {
     title: '18 Ensiklopedia Hewan dalam Al Quran',
     description: `Cerita hewan-hewan selalu menarik untuk anak. Apalagi kalau hewan-hewan ini ada dalam Al-quran pasti sangat menakjubkan! Anak-anak perlu tahu, bagaimana hewan-hewan tersebut dikisahkan di dalam Al-quran sehingga bisa mengambil hikmah  juga meneladani para Nabi dan sahabat. Tidak berhenti di situ, dalam buku ini anak-anak juga diajak untuk mengenal hewan-hewan tersebut lebih dekat. Dari sisi sains apa saja sih keunikan hewan-hewan ini sehingga begitu spesial disebut dalam Al-quran?`,
     imgSrc: '/static/images/projects/ensiklopedia-hewan.png',
